@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/at-alex-alves/Producer-Consumer/src"
+	"github.com/at-alex-alves/Producer-Consumer/src/models"
 )
 
 func main() {
@@ -12,9 +12,6 @@ func main() {
 		ProducersRunning: true,
 		Buffer:           []int{},
 	}
-
-	// producers_running = true
-	// max_productions = 100
 
 	numberProducers := 2
 	numberConsumers := 3
